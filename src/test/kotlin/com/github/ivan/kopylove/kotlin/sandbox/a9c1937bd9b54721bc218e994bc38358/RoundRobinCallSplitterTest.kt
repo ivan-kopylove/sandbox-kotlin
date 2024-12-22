@@ -1,4 +1,4 @@
-package com.github.ivan.kopylove.kotlin.sandbox.dsajdsklad
+package com.github.ivan.kopylove.kotlin.sandbox.a9c1937bd9b54721bc218e994bc38358
 
 import org.awaitility.kotlin.await
 import org.hamcrest.CoreMatchers.equalTo
