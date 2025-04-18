@@ -1,8 +1,3 @@
----
-id: README
-tags: []
----
-
 # sandbox-kotlin
 
 The collection of atomic, focused and isolated examples to try out different approaches using hand-on mode.
