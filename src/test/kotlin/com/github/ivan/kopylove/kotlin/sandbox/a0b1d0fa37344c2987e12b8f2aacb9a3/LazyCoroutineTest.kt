@@ -1,13 +1,10 @@
 package com.github.ivan.kopylove.kotlin.sandbox.a0b1d0fa37344c2987e12b8f2aacb9a3
 
-import org.junit.jupiter.api.fail
 import com.github.ivan.kopylove.kotlin.sandbox.a0b1d0fa37344c2987e12b8f2aacb9a3.CoroutineFactory.buildLazyJob
 import kotlinx.coroutines.runBlocking
 import org.hamcrest.CoreMatchers.equalTo
 import org.hamcrest.MatcherAssert.assertThat
-import org.junit.jupiter.api.Test
-import org.junit.jupiter.api.fail
-import org.junit.jupiter.api.fail
+import org.junit.jupiter.api.*
 
 class LazyCoroutineTest {
     @Test

@@ -1,9 +1,9 @@
-import org.jetbrains.kotlin.gradle.dsl.KotlinVersion
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 
 plugins {
     id("org.jetbrains.kotlin.jvm") version "1.9.0"
+    id("idea")
 }
 
 apply { plugin("org.jetbrains.kotlin.jvm") }
@@ -16,6 +16,13 @@ repositories {
 java {
     toolchain {
         languageVersion.set(JavaLanguageVersion.of(17))
+    }
+}
+
+idea {
+    module {
+        isDownloadJavadoc = true
+        isDownloadSources = true
     }
 }
 
